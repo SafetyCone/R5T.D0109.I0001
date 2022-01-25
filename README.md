@@ -1,0 +1,2 @@
+# R5T.D0109.I0001
+Public IExtensionMethodBaseExtensionRepositoryFilePathsProvider implementation library.
