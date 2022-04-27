@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 
-using R5T.D0109.I001;
+using R5T.D0109.I001;using R5T.T0064;
 
 
 namespace R5T.D0109.I0001
-{
-    public class HardCodedExtensionMethodBaseExtensionRepositoryFilePathsProvider : IExtensionMethodBaseExtensionRepositoryFilePathsProvider
+{[ServiceImplementationMarker]
+    public class HardCodedExtensionMethodBaseExtensionRepositoryFilePathsProvider : IExtensionMethodBaseExtensionRepositoryFilePathsProvider,IServiceImplementation
     {
         public Task<string> GetDuplicateExtensionMethodBaseExtensionNamesTextFilePath()
         {
