@@ -10,7 +10,7 @@ namespace R5T.D0109.I0001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="HardCodedExtensionMethodBaseExtensionRepositoryFilePathsProvider"/> implementation of <see cref="IExtensionMethodBaseExtensionRepositoryFilePathsProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="HardCodedExtensionMethodBaseExtensionRepositoryFilePathsProvider"/> implementation of <see cref="IExtensionMethodBaseExtensionRepositoryFilePathsProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IExtensionMethodBaseExtensionRepositoryFilePathsProvider> AddHardCodedExtensionMethodBaseExtensionRepositoryFilePathsProviderAction(this IServiceAction _)
         {
